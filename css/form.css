@@ -1,0 +1,197 @@
+:root {
+    --color-light: white;
+    --color-dark: #212121;
+    --color-signal: #fab700;
+
+    --color-background: var(--color-light);
+    --color-text: var(--color-dark);
+    --color-accent: var(--color-signal);
+
+    --size-bezel: .5rem;
+    --size-radius: 4px;
+
+}
+
+
+
+.button-group {
+    margin-top: calc(var(--size-bezel) * 2.5);
+}
+
+button {
+    color: currentColor;
+    padding: var(--size-bezel) calc(var(--size-bezel) * 2);
+    background: var(--color-accent);
+    border: none;
+    border-radius: var(--size-radius);
+    font-weight: 900;
+    transition: box-shadow 0.3s ease; /* Smooth transition for shadow */
+}
+
+button:hover {
+    box-shadow: 0 4px 8px rgba(255, 165, 0, 0.7); /* Orange shadow */
+}
+
+button[type="reset"] {
+    background: var(--color-background);
+    font-weight: 200;
+}
+
+button + button {
+    margin-left: calc(var(--size-bezel) * 2);
+}
+
+.specjal {
+    width: 200px;
+    float: left;
+    clear: left;
+}
+
+.cena {
+    width: 100px;
+    margin-right: auto;
+}
+
+.srodkujw {
+    margin-left: 80px;
+}
+
+.srodkuja {
+    margin-left: auto;
+    margin-right: 80px;
+}
+
+.specjalinp {
+    float: right;
+    width: 50%;
+}
+
+input {
+    background: url('https://www.transparenttextures.com/patterns/crisp-paper-ruffles.png');
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+    color: #333;
+}
+
+input::placeholder {
+    color: #888;
+    font-style: italic;
+    opacity: 1;
+}
+
+input:focus {
+    box-shadow: 0 0 8px 2px #fd7e14;
+    border-color: #ffc107;
+    outline: none;
+}
+
+/* Hide the default checkbox */
+input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #b3e5fc;
+    border-radius: 4px;
+    background-color: #fff;
+    cursor: pointer;
+    position: relative;
+    margin-right: 1px;
+}
+
+/* Create a custom checkmark */
+input[type="checkbox"]:checked {
+    background-color: #4CAF50;
+    border-color: #4CAF50;
+}
+
+input[type="checkbox"]:checked::before {
+    content: '\2713'; /* Unicode checkmark */
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+}
+
+/* Styling for labels */
+label.specjal {
+    color: #333;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+
+/* Add a hover effect to checkboxes */
+input[type="checkbox"]:hover {
+    border-color: #4CAF50;
+}
+
+input[type="checkbox"]:checked:hover {
+    background-color: #45a049;
+    border-color: #45a049;
+}
+
+/* Ensure consistent appearance across different input types */
+input[type="checkbox"] {
+    vertical-align: auto;
+}
+
+/* Hide the default radio button */
+input[type="radio"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #b3e5fc;
+    border-radius: 50%;
+    background-color: #fff;
+    cursor: pointer;
+    position: relative;
+    margin-right: 1px;
+}
+
+/* Create a custom radio dot */
+input[type="radio"]:checked {
+    background-color: #4CAF50;
+    border-color: #4CAF50;
+}
+
+input[type="radio"]:checked::before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Add a hover effect to radio buttons */
+input[type="radio"]:hover {
+    border-color: #4CAF50;
+}
+
+input[type="radio"]:checked:hover {
+    background-color: #45a049;
+    border-color: #45a049;
+}
+
+/* Ensure consistent appearance across different input types */
+input[type="radio"], label.specjal {
+    vertical-align: middle;
+}
+
+
+
+
+
+
+
+
