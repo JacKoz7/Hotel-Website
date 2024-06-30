@@ -48,7 +48,7 @@ Projekt przedstawia responsywną stronę internetową dla Hotelu Gosling, stworz
 ![image](https://github.com/JacKoz7/Hotel-strona-internetowa/assets/126762316/0cbf32d8-7650-42b4-b786-e6335918fb43)
 
 ## Wygląd i Styl Strony
-Strona Hotelu Gosling została zaprojektowana z myślą o luksusie i elegancji. Główne elementy stylu to:
+Strona Hotelu Gosling została zaprojektowana z myślą o luksusie i elegancji. Główne elementy stylu to:          
 
 1. Kolorystyka: Stonowane kolory z dominującymi odcieniami złota, bieli i brązu, które podkreślają elegancki charakter hotelu.
 2. Typografia: Użycie eleganckich fontów takich jak Raleway i Lora, które nadają stronie wyrafinowany wygląd.
@@ -56,4 +56,5 @@ Strona Hotelu Gosling została zaprojektowana z myślą o luksusie i elegancji. 
 4. Elementy Interaktywne: Przyciski i formularze z efektem powiększenia przy najechaniu kursorem, co poprawia doświadczenie użytkownika.
 5. Animacje: Subtelne animacje dodane do elementów takich jak pokazy slajdów w galerii zdjęć.
    
-![image](https://github.com/JacKoz7/Hotel-strona-internetowa/assets/126762316/cb0fb0e5-d721-4ed1-a1c6-1d9d849d37b9)
+![image](https://github.com/JacKoz7/Hotel-strona-internetowa/assets/126762316/ffa1e70d-b4ed-4866-bf2b-6df13de874ba)
+
