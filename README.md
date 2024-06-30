@@ -50,7 +50,7 @@ Projekt przedstawia responsywną stronę internetową dla Hotelu Gosling, stworz
 ## Wygląd i Styl Strony
 Strona Hotelu Gosling została zaprojektowana z myślą o luksusie i elegancji. Główne elementy stylu to:
 
-1. Kolorystyka: Stonowane kolory z dominującymi odcieniami złota, bieli i granatu, które podkreślają elegancki charakter hotelu.
+1. Kolorystyka: Stonowane kolory z dominującymi odcieniami złota, bieli i brązu, które podkreślają elegancki charakter hotelu.
 2. Typografia: Użycie eleganckich fontów takich jak Raleway i Lora, które nadają stronie wyrafinowany wygląd.
 3. Układ: Przemyślany układ oparty na Bootstrapie zapewnia responsywność i łatwość nawigacji.
 4. Elementy Interaktywne: Przyciski i formularze z efektem powiększenia przy najechaniu kursorem, co poprawia doświadczenie użytkownika.
