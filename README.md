@@ -44,7 +44,9 @@ Projekt przedstawia responsywną stronę internetową dla Hotelu Gosling, stworz
 - Strona prezentująca atrakcje dostępne w Hotelu Gosling.
 - Trzy sekcje poświęcone basenowi, saunie i siłowni, każda z opisem i zdjęciem.
 - Stylizacja i układ zgodne z resztą strony, z użyciem Bootstrap i własnych stylów CSS.
-  
+
+![image](https://github.com/JacKoz7/Hotel-strona-internetowa/assets/126762316/0cbf32d8-7650-42b4-b786-e6335918fb43)
+
 ## Wygląd i Styl Strony
 Strona Hotelu Gosling została zaprojektowana z myślą o luksusie i elegancji. Główne elementy stylu to:
 
@@ -53,3 +55,5 @@ Strona Hotelu Gosling została zaprojektowana z myślą o luksusie i elegancji. 
 3. Układ: Przemyślany układ oparty na Bootstrapie zapewnia responsywność i łatwość nawigacji.
 4. Elementy Interaktywne: Przyciski i formularze z efektem powiększenia przy najechaniu kursorem, co poprawia doświadczenie użytkownika.
 5. Animacje: Subtelne animacje dodane do elementów takich jak pokazy slajdów w galerii zdjęć.
+   
+![image](https://github.com/JacKoz7/Hotel-strona-internetowa/assets/126762316/cb0fb0e5-d721-4ed1-a1c6-1d9d849d37b9)
