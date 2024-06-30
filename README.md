@@ -1,6 +1,6 @@
 # Projekt: Strona Internetowa Hotelu Gosling
 ## Opis Projektu
-Projekt przedstawia responsywną stronę internetową dla Hotelu Gosling, stworzoną za pomocą HTML, CSS i JavaScript. Strona zawiera informacje o hotelu, jego udogodnieniach oraz system rezerwacji, który umożliwia użytkownikom dokonywanie rezerwacji online.
+Projekt przedstawia responsywną stronę internetową dla Hotelu Gosling, stworzoną za pomocą HTML, CSS i JavaScript. Strona zawiera informacje o hotelu, jego udogodnieniach oraz system rezerwacji, który symuluje użytkownikom możliwość dokonywania rezerwacji online.
 
 ## Funkcjonalności
 1. Responsywność: Strona została zaprojektowana z wykorzystaniem Bootstrap, aby zapewnić pełną responsywność na różnych urządzeniach.
