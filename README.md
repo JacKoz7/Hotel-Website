@@ -9,5 +9,3 @@ Projekt przedstawia responsywną stronę internetową dla Hotelu Gosling, stworz
 3. Komunikaty o Błędach: Jasne i czytelne komunikaty o błędach wyświetlane są w przypadku niepoprawnych danych.
 4. Local Storage: Dane wprowadzone do formularza są zapisywane w lokalnym magazynie danych (localStorage). Dane te mogą być wyświetlane, modyfikowane i usuwane z poziomu interfejsu aplikacji.
 5. Asynchroniczne Ładowanie Treści: Wybrane fragmenty strony są modyfikowane za pomocą treści wczytywanych z plików na serwerze w trybie asynchronicznym, z użyciem Fetch API.
-
-![image](https://github.com/JacKoz7/Hotel-strona-internetowa/assets/126762316/ebda10f6-7973-4a75-876d-d27d204fb923)
