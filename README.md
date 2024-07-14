@@ -1,4 +1,4 @@
-# Projekt: Strona Internetowa Hotelu Gosling
+# Projekt: Strona Internetowa Hotelu Gosling: https://jackoz7.github.io/Hotel-strona-internetowa/
 ![image](https://github.com/JacKoz7/Hotel-strona-internetowa/assets/126762316/f5fa820f-db44-4061-a251-e4f167a99870)
 ## Opis Projektu
 Projekt przedstawia responsywną stronę internetową dla Hotelu Gosling, stworzoną za pomocą HTML, CSS i JavaScript. Strona zawiera informacje o hotelu, jego udogodnieniach oraz system rezerwacji, który symuluje użytkownikom możliwość dokonywania rezerwacji online.
