@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb6b7b6c-123a-4e26-9eea-43b3696bb5eb" name="Changes" comment="small changes">
-      <change beforePath="$PROJECT_DIR$/html/Atrakcje.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Atrakcje.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/EdycjaRezerwacji.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/EdycjaRezerwacji.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/GaleriaZdjec.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/GaleriaZdjec.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/MojeRezerwacja.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/MojeRezerwacja.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/Onas.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Onas.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/Rezerwacja.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Rezerwacja.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="bb6b7b6c-123a-4e26-9eea-43b3696bb5eb" name="Changes" comment="small changes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -141,7 +133,7 @@
       <workItem from="1724958321347" duration="2000" />
       <workItem from="1724962668563" duration="605000" />
       <workItem from="1725734679357" duration="1193000" />
-      <workItem from="1725736281527" duration="1004000" />
+      <workItem from="1725736281527" duration="1352000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />

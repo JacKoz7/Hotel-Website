@@ -1,4 +1,4 @@
-# Project: Gosling Hotel Website: https://jackoz7.github.io/Hotel-strona-internetowa/
+# Project: Gosling Hotel Website: https://jackoz7.github.io/Hotel-Website/
 ![image](https://github.com/JacKoz7/Hotel-strona-internetowa/assets/126762316/f5fa820f-db44-4061-a251-e4f167a99870)
 
 ## Project Description
