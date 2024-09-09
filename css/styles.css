@@ -4216,9 +4216,6 @@ textarea.form-control-lg {
   margin-bottom: 0;
 }
 
-.card-text:last-child {
-  margin-bottom: 0;
-}
 
 .card-link + .card-link {
   margin-left: var(--bs-card-spacer-x);
