@@ -71,29 +71,70 @@
                                 <label for="endDate" class="specjal">Koniec pobytu: </label>
                                 <input class="specjalinp" type="date" id="endDate" name="endDate" required>
                             </li>
-                            <li class="list-unstyled-item list-hours-item d-flex">
-                                <span class="specjal" >Dodatkowe usługi:</span>
-                                <div>
-                                    <input type="checkbox" id="basen" name="dodatkowe" value="700"><label class="specjal" for="basen">Basen (+ $700)</label><br>
-                                    <input type="checkbox" id="silownia" name="dodatkowe" value="640"><label class="specjal" for="silownia">Siłownia (+ $640)</label><br>
-                                    <input type="checkbox" id="sauna" name="dodatkowe" value="550"><label class="specjal" for="sauna">Sauna (+ $550)</label>
+                            <li class="list-unstyled-item list-hours-item">
+                                <span class="section-title">Dodatkowe usługi:</span>
+                                <div class="options-row">
+                                    <div class="option-card">
+                                        <input type="checkbox" id="basen" name="dodatkowe" value="700">
+                                        <label for="basen">
+                                            <span class="option-icon">🏊</span>
+                                            <span class="option-name">Basen</span>
+                                            <span class="option-price">+ $700</span>
+                                        </label>
+                                    </div>
+                                    <div class="option-card">
+                                        <input type="checkbox" id="silownia" name="dodatkowe" value="640">
+                                        <label for="silownia">
+                                            <span class="option-icon">💪</span>
+                                            <span class="option-name">Siłownia</span>
+                                            <span class="option-price">+ $640</span>
+                                        </label>
+                                    </div>
+                                    <div class="option-card">
+                                        <input type="checkbox" id="sauna" name="dodatkowe" value="550">
+                                        <label for="sauna">
+                                            <span class="option-icon">🧖</span>
+                                            <span class="option-name">Sauna</span>
+                                            <span class="option-price">+ $550</span>
+                                        </label>
+                                    </div>
                                 </div>
                             </li>
                             <li class="list-unstyled-item list-hours-item d-flex">
                                 <span class="specjal">Cena wynosi:</span>
                                 <span class="ms-auto cena" id="totalPrice">$</span>
                             </li>
-                            <li class="list-unstyled-item list-hours-item d-flex">
-                                <span class="specjal">Sposób zapłaty:</span>
-                                <div>
-                                    <input type="radio" id="Przelew Bankowy" name="zapłata" value="Przelew Bankowy" required><label class="specjal" for="Przelew Bankowy">Przelew bankowy</label><br>
-                                    <input type="radio" id="Apple Pay" name="zapłata" value="Apple Pay" required><label class="specjal" for="Apple Pay">Apple Pay</label><br>
-                                    <input type="radio" id="Google Pay" name="zapłata" value="Google Pay" required><label class="specjal" for="Google Pay">Google Pay</label>
+
+
+                            <li class="list-unstyled-item list-hours-item">
+                                <span class="section-title">Sposób zapłaty:</span>
+                                <div class="options-row">
+                                    <div class="option-card">
+                                        <input type="radio" id="Przelew Bankowy" name="zapłata" value="Przelew Bankowy" required>
+                                        <label for="Przelew Bankowy">
+                                            <span class="option-icon">🏦</span>
+                                            <span class="option-name">Przelew bankowy</span>
+                                        </label>
+                                    </div>
+                                    <div class="option-card">
+                                        <input type="radio" id="Apple Pay" name="zapłata" value="Apple Pay" required>
+                                        <label for="Apple Pay">
+                                            <span class="option-icon"></span>
+                                            <span class="option-name">Apple Pay</span>
+                                        </label>
+                                    </div>
+                                    <div class="option-card">
+                                        <input type="radio" id="Google Pay" name="zapłata" value="Google Pay" required>
+                                        <label for="Google Pay">
+                                            <span class="option-icon">G</span>
+                                            <span class="option-name">Google Pay</span>
+                                        </label>
+                                    </div>
                                 </div>
                             </li>
                             <li class="list-unstyled-item list-hours-item d-flex button-group">
                                 <button type="submit" class="srodkujw">Zapisz zmiany</button>
-                                <button type="reset" class="srodkuja">Anuluj</button>
+                                <button type="reset" class="srodkuja" onclick="window.location.href='MojeRezerwacja.html'">Anuluj</button>
                             </li>
                         </ul>
                         <p class="address mb-5">
@@ -113,7 +154,7 @@
     </div>
 </section>
 <footer class="footer text-faded text-center py-5">
-    <div class="container"><p class="m-0 small">Copyright &copy; Hotel Gosling 2024</p></div>
+    <div class="container"><p class="m-0 small">Copyright &copy; Hotel Gosling 2025</p></div>
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="../js/scripts.js"></script>

@@ -54,10 +54,119 @@
     </div>
 </section>
 <footer class="footer text-faded text-center py-5">
-    <div class="container"><p class="m-0 small">Copyright &copy; Hotel Gosling 2024</p></div>
+    <div class="container"><p class="m-0 small">Copyright &copy; Hotel Gosling 2025</p></div>
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="../js/scripts.js"></script>
+
+<style>
+    body {
+        font-family: 'Raleway', sans-serif; /* Use site-wide font */
+        margin: 0; /* Remove default margin for consistency */
+    }
+
+    .container-res {
+        max-width: 800px; /* Slightly wider for better readability */
+        margin: auto;
+        padding: 30px;
+        border: none; /* Remove border, rely on cta-inner styling */
+    }
+
+    .heading {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        font-size: 2rem;
+        color: #3a2e2e; /* Dark brown from site palette */
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin-bottom: 2rem;
+    }
+
+    .reservation-item {
+        margin-bottom: 2rem;
+        padding: 1.5rem;
+        border: 2px solid #fab700; /* Gold border to match site theme */
+        border-radius: 12px; /* Softer, rounded corners */
+        background-color: #fff; /* White background for contrast */
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .reservation-item:hover {
+        transform: translateY(-5px); /* Slight lift on hover */
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15); /* Stronger shadow on hover */
+    }
+
+    .reservation-item h3 {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 600;
+        font-size: 1.5rem;
+        color: #3a2e2e;
+        margin-bottom: 1rem;
+        border-bottom: 1px solid #d4c8a7; /* Beige separator */
+        padding-bottom: 0.5rem;
+    }
+
+    .data-item {
+        margin-bottom: 0.75rem;
+        font-family: 'Lora', serif;
+        font-size: 1.1rem;
+        color: #3a2e2e;
+        display: flex;
+        align-items: center;
+    }
+
+    .data-item span {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        width: 180px; /* Fixed width for labels to align content */
+        color: #3a2e2e;
+    }
+
+    .delete-btn, .edit-btn {
+        margin-right: 1rem;
+        padding: 0.5rem 1.5rem;
+        cursor: pointer;
+        border: none;
+        border-radius: 8px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        font-size: 1rem;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        transition: all 0.3s ease;
+    }
+
+    .edit-btn {
+        background-color: #fab700; /* Gold for "Edytuj" button */
+        color: #3a2e2e;
+    }
+
+    .edit-btn:hover {
+        background-color: #e6a600; /* Darker gold on hover */
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(250, 183, 0, 0.3);
+    }
+
+    .delete-btn {
+        background-color: #d4c8a7; /* Beige for "Usuń" button */
+        color: #3a2e2e;
+    }
+
+    .delete-btn:hover {
+        background-color: #c7b989; /* Darker beige on hover */
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(212, 200, 167, 0.3);
+    }
+
+    /* Styling for empty state */
+    #reservationData p {
+        font-family: 'Lora', serif;
+        font-size: 1.2rem;
+        color: #8a7b5f; /* Muted brown for empty state */
+        font-style: italic;
+    }
+</style>
 
 <script>
     const serviceMapping = {

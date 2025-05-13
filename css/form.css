@@ -1,197 +1,363 @@
 :root {
-    --color-light: white;
-    --color-dark: #212121;
+    --color-light: #f5f2e9;
+    --color-dark: #3a2e2e;
     --color-signal: #fab700;
-
     --color-background: var(--color-light);
     --color-text: var(--color-dark);
     --color-accent: var(--color-signal);
-
-    --size-bezel: .5rem;
-    --size-radius: 4px;
-
+    --size-bezel: 0.75rem;
+    --size-radius: 8px;
 }
 
-
-
+/* Base Form Styles */
 .button-group {
-    margin-top: calc(var(--size-bezel) * 2.5);
+    margin-top: calc(var(--size-bezel) * 3);
+    display: flex;
+    justify-content: center;
+    gap: calc(var(--size-bezel) * 2);
 }
 
 button {
-    color: currentColor;
-    padding: var(--size-bezel) calc(var(--size-bezel) * 2);
+    color: var(--color-dark);
+    padding: var(--size-bezel) calc(var(--size-bezel) * 3);
     background: var(--color-accent);
     border: none;
     border-radius: var(--size-radius);
-    font-weight: 900;
-    transition: box-shadow 0.3s ease; /* Smooth transition for shadow */
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
 }
 
 button:hover {
-    box-shadow: 0 4px 8px rgba(255, 165, 0, 0.7); /* Orange shadow */
+    background: #e6a600;
+    box-shadow: 0 4px 12px rgba(250, 183, 0, 0.3);
+    transform: translateY(-2px);
 }
 
 button[type="reset"] {
-    background: var(--color-background);
-    font-weight: 200;
+    background: #d4c8a7;
+    color: var(--color-dark);
+    font-weight: 500;
 }
 
-button + button {
-    margin-left: calc(var(--size-bezel) * 2);
+button[type="reset"]:hover {
+    background: #c7b989;
+    box-shadow: 0 4px 12px rgba(212, 200, 167, 0.3);
 }
 
 .specjal {
-    width: 200px;
+    width: 220px;
     float: left;
     clear: left;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: var(--color-dark);
+    line-height: 2.5rem;
 }
 
 .cena {
     width: 100px;
     margin-right: auto;
-}
-
-.srodkujw {
-    margin-left: 80px;
-}
-
-.srodkuja {
-    margin-left: auto;
-    margin-right: 80px;
+    font-family: 'Lora', serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--color-dark);
 }
 
 .specjalinp {
     float: right;
-    width: 50%;
+    width: 60%;
+    height: 2.5rem;
+    font-family: 'Lora', serif;
+    font-size: 1rem;
 }
 
 input {
-    background: url('https://www.transparenttextures.com/patterns/crisp-paper-ruffles.png');
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    text-align: center;
-    color: #333;
+    background: #fff;
+    border: 2px solid #d4c8a7;
+    border-radius: var(--size-radius);
+    text-align: left;
+    padding: 0.5rem 1rem;
+    color: var(--color-dark);
+    font-family: 'Lora', serif;
+    font-size: 1rem;
+    transition: all 0.3s ease;
 }
 
 input::placeholder {
-    color: #888;
-    font-style: italic;
-    opacity: 1;
+    color: #8a7b5f;
+    font-style: normal;
+    opacity: 0.7;
 }
 
 input:focus {
-    box-shadow: 0 0 8px 2px #fd7e14;
-    border-color: #ffc107;
+    box-shadow: 0 0 8px rgba(250, 183, 0, 0.4);
+    border-color: var(--color-accent);
     outline: none;
 }
 
-/* Hide the default checkbox */
-input[type="checkbox"] {
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
+.list-hours-item {
+    margin-bottom: 1.5rem;
+    align-items: center;
+}
+
+/* Services & Payment Sections */
+.section-title {
+    display: block;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: var(--color-dark);
+    margin-bottom: 1rem;
+}
+
+.options-row {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.option-card {
+    flex: 1;
+    min-width: 150px;
+    max-width: 200px;
+}
+
+.option-card label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: var(--size-radius);
+    border: 1px solid #e0d6c0;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    height: 100%;
+    text-align: center;
+}
+
+.option-card:hover label {
+    background-color: rgba(250, 183, 0, 0.1);
+    border-color: var(--color-accent);
+}
+
+.option-icon {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.option-name {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    color: var(--color-dark);
+    margin-bottom: 0.3rem;
+}
+
+.option-price {
+    font-family: 'Lora', serif;
+    font-weight: 600;
+    color: var(--color-accent);
+}
+
+/* Hide default inputs */
+.option-card input[type="checkbox"],
+.option-card input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+}
+
+/* Custom checkboxes */
+.option-card input[type="checkbox"] + label:before {
+    content: "";
+    display: inline-block;
     width: 20px;
     height: 20px;
-    border: 2px solid #b3e5fc;
+    border: 2px solid #d4c8a7;
     border-radius: 4px;
-    background-color: #fff;
-    cursor: pointer;
-    position: relative;
-    margin-right: 1px;
+    margin-bottom: 0.5rem;
+    transition: all 0.3s ease;
 }
 
-/* Create a custom checkmark */
-input[type="checkbox"]:checked {
-    background-color: #4CAF50;
-    border-color: #4CAF50;
+.option-card input[type="checkbox"]:checked + label:before {
+    background-color: var(--color-accent);
+    border-color: var(--color-accent);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%233a2e2e' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='20 6 9 17 4 12'%3E%3C/polyline%3E%3C/svg%3E");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 14px;
 }
 
-input[type="checkbox"]:checked::before {
-    content: '\2713'; /* Unicode checkmark */
-    color: white;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 16px;
-}
-
-/* Styling for labels */
-label.specjal {
-    color: #333;
-    font-size: 17px;
-    cursor: pointer;
-}
-
-
-/* Add a hover effect to checkboxes */
-input[type="checkbox"]:hover {
-    border-color: #4CAF50;
-}
-
-input[type="checkbox"]:checked:hover {
-    background-color: #45a049;
-    border-color: #45a049;
-}
-
-/* Ensure consistent appearance across different input types */
-input[type="checkbox"] {
-    vertical-align: auto;
-}
-
-/* Hide the default radio button */
-input[type="radio"] {
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
+/* Custom radio buttons */
+.option-card input[type="radio"] + label:before {
+    content: "";
+    display: inline-block;
     width: 20px;
     height: 20px;
-    border: 2px solid #b3e5fc;
+    border: 2px solid #d4c8a7;
     border-radius: 50%;
-    background-color: #fff;
-    cursor: pointer;
-    position: relative;
-    margin-right: 1px;
+    margin-bottom: 0.5rem;
+    transition: all 0.3s ease;
 }
 
-/* Create a custom radio dot */
-input[type="radio"]:checked {
-    background-color: #4CAF50;
-    border-color: #4CAF50;
+.option-card input[type="radio"]:checked + label:before {
+    background-color: var(--color-accent);
+    border-color: var(--color-accent);
+    box-shadow: inset 0 0 0 4px var(--color-dark);
 }
 
-input[type="radio"]:checked::before {
-    content: '';
-    width: 10px;
-    height: 10px;
-    background-color: white;
-    border-radius: 50%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .options-row {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .option-card {
+        width: 100%;
+        max-width: 250px;
+    }
 }
 
-/* Add a hover effect to radio buttons */
-input[type="radio"]:hover {
-    border-color: #4CAF50;
+/* Options Row Layout */
+.options-row {
+    display: flex;
+    flex-wrap: nowrap; /* Prevent wrapping to new line */
+    justify-content: center;
+    gap: 1.5rem;
+    overflow-x: auto; /* Allow horizontal scrolling if needed */
+    padding-bottom: 0.5rem; /* Space for scrollbar */
 }
 
-input[type="radio"]:checked:hover {
-    background-color: #45a049;
-    border-color: #45a049;
+.option-card {
+    flex: 0 0 auto; /* Don't grow or shrink */
+    min-width: 150px;
+    width: calc(33.333% - 1.5rem); /* Equal width for 3 items minus gap */
 }
 
-/* Ensure consistent appearance across different input types */
-input[type="radio"], label.specjal {
-    vertical-align: middle;
+/* Responsive adjustments - switch to column only on very small screens */
+@media (max-width: 576px) {
+    .options-row {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .option-card {
+        width: 100%;
+        max-width: 250px;
+    }
 }
 
+/* Remove default list styling for these sections */
+.list-unstyled.list-hours {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
 
+/* Special styling for the options rows */
+.list-hours-item:has(.options-row) {
+    display: block;
+    width: 100%;
+}
 
+.options-row {
+    display: flex;
+    gap: 1.5rem;
+    padding: 0.5rem 0;
+    width: 100%;
+    overflow-x: auto; /* Allows horizontal scrolling if needed */
+}
 
+.option-card {
+    flex: 1;
+    min-width: 150px;
+}
 
+/* Keep the other form items aligned properly */
+.list-hours-item.d-flex {
+    display: flex !important;
+    align-items: center;
+}
 
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .options-row {
+        flex-wrap: wrap;
+    }
 
+    .option-card {
+        min-width: calc(50% - 0.75rem);
+    }
+}
 
+@media (max-width: 576px) {
+    .option-card {
+        min-width: 100%;
+    }
+}
+
+/* Compact Options Row */
+.options-row {
+    display: flex;
+    gap: 0.5rem; /* Reduced gap */
+    padding: 0.5rem 0;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling on mobile */
+}
+
+.option-card {
+    flex: 0 0 auto; /* Don't grow or shrink */
+    min-width: 120px; /* Smaller minimum width */
+}
+
+.option-card label {
+    padding: 0.5rem; /* Reduced padding */
+    min-height: 80px; /* Fixed height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.option-icon {
+    font-size: 1.2rem; /* Smaller icon */
+    margin-bottom: 0.3rem;
+}
+
+.option-name {
+    font-size: 0.9rem; /* Smaller text */
+    margin-bottom: 0.2rem;
+}
+
+.option-price {
+    font-size: 0.8rem; /* Smaller price */
+}
+
+/* Hide the checkbox/radio visually but keep it accessible */
+.option-card input[type="checkbox"] + label:before,
+.option-card input[type="radio"] + label:before {
+    display: none;
+}
+
+/* Show selection with border instead */
+.option-card input[type="checkbox"]:checked + label,
+.option-card input[type="radio"]:checked + label {
+    border: 2px solid var(--color-accent);
+    background-color: rgba(250, 183, 0, 0.1);
+}
+
+/* No wrapping at any screen size */
+@media (max-width: 768px) {
+    .options-row {
+        flex-wrap: nowrap;
+    }
+}
